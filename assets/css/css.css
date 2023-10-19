@@ -1,0 +1,61 @@
+h1 {
+    color: navajowhite;
+    font-size: 1em
+}
+
+.red {
+    color: darkred;
+    font-size: 2em
+}
+
+.blue {
+    color: aquamarine;
+    font-size: 3em
+}
+
+.green {
+    color: greenyellow;
+    font-size: 4em
+}
+
+.father {
+    font-size: 2em;
+}
+
+.son {
+    font-size: 5em;
+}
+
+.cube {
+    width: 256px;
+    height: 256px;
+    background: #dedede;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fa-san {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pic {
+    background-image: url('../images/ok.png');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 256px;
+    height: 256px;
+}
+
+.border {
+    border: 10px solid navy;
+    border-radius: 64px;
+}
+
+.padding {
+    padding: 128px;
+}
+
+.margin {
+    margin: 20px auto;
+}

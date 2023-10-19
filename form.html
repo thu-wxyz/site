@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chk {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://book.niceinfos.com/api/form/" method="post" enctype="multipart/form-data">
+        <div><input type="radio" name="gender" value="male" id="gender-male" /> <label for="gender-male">男</label></div>
+        <div><input type="radio" name="gender" value="female" id="gender-female" /> <label for="gender-female">女</label>
+        </div>
+        <div><input type="checkbox" name="music[]" value="a1" id="music-a1" /> <label for="music-a1">A1</label></div>
+        <div><input type="checkbox" name="music[]" value="a2" id="music-a2" /> <label for="music-a2">A2</label></div>
+        <div><input type="checkbox" name="music[]" value="a3" id="music-a3" /> <label for="music-a3">A3</label></div>
+        <div><input type="checkbox" name="music[]" value="a4" id="music-a4" /> <label for="music-a4">A4</label></div>
+        <select name="county">
+            <option value="">選擇縣市</option>
+            <option value="TP">台北</option>
+            <option value="台中">台中</option>
+            <option>高雄</option>
+        </select>
+        <select name="county[]" multiple>
+            <option value="">選擇縣市</option>
+            <option value="TP">台北</option>
+            <option value="台中">台中</option>
+            <option>高雄</option>
+        </select>
+        <input type="file" name="my-pic" />
+        <button>發送</button>
+    </form>
+    </form>
+</body>
+
+</html>
